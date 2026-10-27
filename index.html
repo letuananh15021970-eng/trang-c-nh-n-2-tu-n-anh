@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuan Anh Le - Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bộ icon từ FontAwesome -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- Hiệu ứng nền bong bóng bay nhẹ -->
+    <div class="background-particles"></div>
+
+    <div class="profile-card">
+        <!-- Ảnh đại diện -->
+        <div class="avatar-container">
+            <img src="https://picsum.photos" alt="Tuan Anh Le" class="avatar">
+            <div class="status-dot"></div>
+        </div>
+
+        <!-- Thông tin cá nhân lấy từ trang profile của bạn -->
+        <h1 class="name">Tuan Anh Lê</h1>
+        <p class="tagline">@kobtjhets1 • Creator & Developer</p>
+        
+        <!-- Đoạn giới thiệu ngắn gọn, ấn tượng để gửi tới crush -->
+        <p class="bio">
+            "Dòng code này có thể có bug, nhưng tình cảm tớ gửi gắm nơi đây thì luôn chạy mượt mà không một lỗi nhỏ. 💫"
+        </p>
+
+        <!-- Thống kê nhỏ về sở thích -->
+        <div class="stats-container">
+            <div class="stat-box">
+                <i class="fa-solid fa-heart icon-heart"></i>
+                <span>Crush cậu</span>
+            </div>
+            <div class="stat-box">
+                <i class="fa-solid fa-code icon-code"></i>
+                <span>Web Dev</span>
+            </div>
+        </div>
+
+        <!-- Các liên kết mạng xã hội chính chủ của bạn -->
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61574356773427&locale=vi_VN" target="_blank" class="social-btn facebook" title="Facebook của Tuấn Anh"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@kobtjhets1" target="_blank" class="social-btn tiktok" title="TikTok của Tuấn Anh"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+
+        <!-- Nút tương tác phát nhạc hoặc gửi thông điệp ẩn -->
+        <button class="action-btn" id="secretBtn">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Xem điều bí mật dành cho cậu
+        </button>
+    </div>
+
+    <!-- Nhạc nền ẩn (Bạn có thể đổi link bài hát bất kỳ tại src nhé) -->
+    <audio id="bgMusic" src="https://soundhelix.com" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
